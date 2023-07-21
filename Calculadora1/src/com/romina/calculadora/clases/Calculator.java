@@ -1,6 +1,7 @@
 package com.romina.calculadora.clases;
 
 public class Calculator {
+	//ATRIBUTOS
     private double operandOne;
     private double operandTwo;
     private char operation;
@@ -9,7 +10,7 @@ public class Calculator {
     public Calculator() {
       
     }
-   
+   //MÉTODO PARA LLEVAR A CABO LA OPERACIÓN
     public void performOperation() {
         if (operation == '+') {
             result = operandOne + operandTwo;
@@ -20,6 +21,7 @@ public class Calculator {
         }
     }
 
+    //GETTERS Y SETTERS
 	public double getOperandOne() {
 		return operandOne;
 	}
